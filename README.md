@@ -1,4 +1,4 @@
-# YOUR PROJECT NAME HERE
+# NexusIQTools
 
 <!-- Badges Section -->
 [![shield_gh-workflow-test]][link_gh-workflow-test]
@@ -7,8 +7,7 @@
 
 ---
 
-Introduce your project here. A short summary about what its purpose and scope is.
-
+This Python script can be used to list applications, list organizations, and move applications to a new organization in Nexus IQ.  We built this script to enable us to move applications around in Nexus IQ easily using regular expressions to match application names.  The reason this script was needed is that we built a hierarchy of organizations in Nexus IQ to mimic our team structure, and we needed to move applications under this hierarchy.  Instead of using the GUI in Nexus IQ and moving one application at a time, this script would use regex to match the application name and then move all of those matches under an organization.
 - [Usage](#usage)
 - [Development](#development)
 - [The Fine Print](#the-fine-print)
